@@ -87,13 +87,13 @@ a{
 }
 
 h1{
-    font-size: 4rem;
+    font-size: 5rem;
     color: white;
     margin-bottom: 50px;
 }
 
 h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     margin-bottom: 20px;
 }
 
@@ -106,7 +106,7 @@ section > div{
 }
 
 .short-section img{
-    width: 1000px;
+    width: 800px;
 }
 
 .long-section div{
@@ -114,7 +114,7 @@ section > div{
 }
 
 .long-section img{
-    width: 80%;
+    width: 100%;
 }
 
 .img{
@@ -127,9 +127,64 @@ section > div{
 }
 
 main p{
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 .grey-bg{
     background-color: #F6F6F6;
 }
+
+footer{
+    background-color: #23272A;
+    color: white;
+}
+
+footer *{
+    margin-top: 20px;
+}
+
+.foot-container{
+    padding: 100px 0;
+    border-bottom: 2px solid #7289DA;
+}
+
+.foot-end{
+    padding-bottom: 30px;
+}
+
+footer li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+h3{
+    font-size: 3rem;
+    color: #7289DA;
+}
+
+.footer-social{
+    flex-grow: 2;
+}
+
+.footer-nav{
+    flex-grow: 1;
+}
+
+.socials i{
+    font-size: 2rem;
+    margin: 0 15px;
+}
+
+footer li:first-child{
+    color: #7289DA;
+}
+
+#flag{
+    width: 30px;
+}
+
+#stars{
+    width: 1000px;
+}
+
